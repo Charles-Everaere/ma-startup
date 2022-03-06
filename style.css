@@ -1,0 +1,112 @@
+@import url("https : //fonts.googleapis.com/css2?family=Lora & display = swap"); 
+@import url("https : //fonts.googleapis.com/css2?family= Roboto :wght@100 & display=swap");
+
+body { 
+	font-family: 'lora';
+	font-size: 18px;
+	
+ }
+
+ h1, h2, h3 {
+ 	font-family: 'Roboto';
+ 	font-weight: bold;
+ }
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 700px;
+	margin: 80px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 2px 10px 28px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	margin: 20px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	background-color: #E0E5E9;
+
+}
+
+.card img {
+	width: 150px;
+	border-radius: 8x;
+	margin: 5px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 25px;
+
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btn-blue {
+	background-color: #AA210F;
+	padding: 15px 20px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto';
+}
+
+.btn-blue:hover {
+	background-color: black;
+}
+
+.banner {
+	background-image: linear-gradient(225deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50% ), url('https://olgaphone.com/blog/wp-content/uploads/2016/02/chien_guide_aveugle_olga_famille.jpg');
+	color: rgb(250, 250, 250);
+	padding: 150px 0px ;
+	background-size: cover;
+	background-position: center ;	
+
+}
+
+.banner h1 {
+	font-size: 50px;
+
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+}
+
+.Avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
